@@ -6,7 +6,7 @@
 > 목차입니다. `[목차명](#해당-제목으로-입력)`형식으로 입력하면 이어집니다
 * [MONU](#monu)
 * [ChaeRin](#ChaeRin)
-* [temp2](#temp2)
+* [JoJosmin](#JoJosmin)
 * [temp3](#temp3)
 
 ### MONU
@@ -17,9 +17,9 @@
 #### 9월 둘째주
 * 1. Web개발의 이해 - FE/BE
 
-### temp2
+### JoJosmin
 #### 9월 둘째주
-* 목표
+*  1. Web개발의 이해 - FE/BE ~ 3.CSS - FE
 
 ### temp3
 #### 9월 둘째주
