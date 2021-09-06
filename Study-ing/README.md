@@ -7,7 +7,7 @@
 * [MONU](#monu)
 * [ChaeRin](#ChaeRin)
 * [JoJosmin](#JoJosmin)
-* [temp3](#temp3)
+* [Dot](#temp3)
 
 ### MONU
 #### 9월 둘째주
@@ -21,9 +21,9 @@
 #### 9월 둘째주
 * 1. Web개발의 이해 - FE/BE ~ 3. CSS - FE
 
-### temp3
+### Dot
 #### 9월 둘째주
-* 목표
+* 1. Web개발의 이해 - FE/BE ~ 4. 개발환경 설정 - BE
 
 
 ***
