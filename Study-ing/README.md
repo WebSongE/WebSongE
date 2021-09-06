@@ -19,7 +19,7 @@
 
 ### JoJosmin
 #### 9월 둘째주
-*  1. Web개발의 이해 - FE/BE ~ 3.CSS - FE
+* 1. Web개발의 이해 - FE/BE ~ 3. CSS - FE
 
 ### temp3
 #### 9월 둘째주
