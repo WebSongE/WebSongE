@@ -5,9 +5,9 @@
 ## 스터디원
 > 목차입니다. `[목차명](해당-제목-으로-입력)`형식으로 입력하면 이어집니다
 * [MONU](monu)
-* [temp](temp1)
-* [temp](temp2)
-* [temp](temp3)
+* [temp1](temp1)
+* [temp2](temp2)
+* [temp3](temp3)
 
 ### MONU
 #### 9월 둘째주
