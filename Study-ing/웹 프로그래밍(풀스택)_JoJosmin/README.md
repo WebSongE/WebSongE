@@ -55,9 +55,12 @@
 > 1. Web개발의 이해 - FE/BE- 4)browser의 동작
 
 * 브라우저: 월드와이드웹에서 정보를 검색, 표현, 탐색 위한 소프트웨어
+ * UI, Browser engine(소프트웨어 동작), Rendering engine, Data Persistance, networking, JavaScript coder, UI Backend로 구성
  * 네트워크 모듈과 해석기 포함
- * 브라우저마다 서로 다른 엔진 포함
-  *![webkitflow](https://user-images.githubusercontent.com/86174004/132713030-e433f15f-5d08-4f1e-9acb-35ad77069035.png)
+ * 브라우저마다 서로 다른 엔진(Rendering engine) 포함
+  * HTML 코드 해석, DOM(Document Object Model) tree 구조로 형성 -> Render tree형성 --> rneder tree 기준으로 css 합쳐 화면에 어떻게 배치할지 결정 -->화면에 그려짐
+  * Webkit main flow
+   ![webkitflow](https://user-images.githubusercontent.com/86174004/132713030-e433f15f-5d08-4f1e-9acb-35ad77069035.png)
 
 
 
