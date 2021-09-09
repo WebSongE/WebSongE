@@ -20,14 +20,14 @@
 
 * HTTP: 서버와 클라이언트가 인터넷상에서 데이터 주고받기 위한 프로토콜
 * HTTP 작동방식: 서버/클라이언트 모델(클라이언트 요청 시 서버가 응답)
- * 장: 불특정 다수 대상 적합, 클라이언트와 서버 간 최대 연결 수보다 많은 요청 처리 가능
- * 단: 클라이언트 이전 상황 알 수 없음(무상태)-->cookie 등장
+  * 장: 불특정 다수 대상 적합, 클라이언트와 서버 간 최대 연결 수보다 많은 요청 처리 가능
+  * 단: 클라이언트 이전 상황 알 수 없음(무상태)-->cookie 등장
  1) 클라이언트가 원하는 서버에 접속
  2) 클라이언트가 서버에 요청
  3) 요청에 따른 결과를 서버가 클라이언트에게 전달
 요청 데이터 포맷
- * 요청헤더: 요청메서드/요청 uri/HTTP프로토콜 버전
- * 요청바디:(GET방식은 요청바디 없음)
+  * 요청헤더: 요청메서드/요청 uri/HTTP프로토콜 버전
+  * 요청바디:(GET방식은 요청바디 없음)
 응답 데이터 포맷
 -응답헤더: 응답 HTTP프로토콜 버전/ 응답코드/응답메시지 
 -응답바디: 실제 응답 리소스
@@ -38,34 +38,28 @@
 
 * 웹 프론트 엔드: 사용자에게 웹을 통해 콘텐츠(리소스) 제공, 사용자 요구사항에 반응
 * 웹 프론트 엔드의 역할
- * 콘텐츠 잘 보여주기 위한 구조 생성(HTML)
- * 적절한 배치와 일관된 디자인(CSS)
- * 사용자 요청 반영(Javascript)
+  * 콘텐츠 잘 보여주기 위한 구조 생성(HTML)
+  * 적절한 배치와 일관된 디자인(CSS)
+  * 사용자 요청 반영(Javascript)
 
 * 백엔드: 정보 처리, 저장, 요청에 따라 정보 내려줌 (서버 입장의 개발)
 * 백 엔드 개발자가 알아야 할 것들
-
- * 프로그래밍 언어
- 
- * 웹의 동작 원리
- 
- * 알고리즘, 자료구조 등 지식
- 
- * 운영체제, 네트워크 등 이해
- 
- * 프레임워크에 대한 이해
- 
- * DBMS에 대한 이해와 사용방법
+  * 프로그래밍 언어
+  * 웹의 동작 원리
+  * 알고리즘, 자료구조 등 지식
+  * 운영체제, 네트워크 등 이해
+  * 프레임워크에 대한 이해
+  * DBMS에 대한 이해와 사용방법
 
 ### 9월 10일
 > 1. Web개발의 이해 - FE/BE- 4)browser의 동작
 
 * 브라우저: 월드와이드웹에서 정보를 검색, 표현, 탐색 위한 소프트웨어
- * UI, Browser engine(소프트웨어 동작), Rendering engine, Data Persistance, networking, JavaScript coder, UI Backend로 구성
- * 네트워크 모듈과 해석기 포함
- * 브라우저마다 서로 다른 엔진(Rendering engine) 포함
-  * HTML 코드 해석, DOM(Document Object Model) tree 구조로 형성 -> Render tree형성 --> rneder tree 기준으로 css 합쳐 화면에 어떻게 배치할지 결정 -->화면에 그려짐
-  * Webkit main flow
+  * UI, Browser engine(소프트웨어 동작), Rendering engine, Data Persistance, networking, JavaScript coder, UI Backend로 구성
+  * 네트워크 모듈과 해석기 포함
+  * 브라우저마다 서로 다른 엔진(Rendering engine) 포함
+   * HTML 코드 해석, DOM(Document Object Model) tree 구조로 형성 -> Render tree형성 --> rneder tree 기준으로 css 합쳐 화면에 어떻게 배치할지 결정 -->화면에 그려짐
+   * Webkit main flow
    ![webkitflow](https://user-images.githubusercontent.com/86174004/132713030-e433f15f-5d08-4f1e-9acb-35ad77069035.png)
 
 
