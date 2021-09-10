@@ -62,5 +62,15 @@
    * Webkit main flow
    ![webkitflow](https://user-images.githubusercontent.com/86174004/132713030-e433f15f-5d08-4f1e-9acb-35ad77069035.png)
 
-
-
+  * block-명령
+> 1. Web개발의 이해 - FE/BE- 5)browser에서의 웹 개발
+* HTML은 태그사용해서 표현
+   * html
+   * head: HTML 문서에 관한 추가적 정보
+   * body: 화면에 표현되어야할 것들
+   * meta: 문서가 어떤 것인지 브라우저에 전달
+   * li:리스트 태그
+   * script : javascript 이용 태그
+ * HTML은 계층적
+ * 브라우저는 HTML 한 라인씩 해석
+ * javascript코드가 head로 갈 경우 렌더링 방해 가능--> body 닫히기 직전 혹은 body이후에 
