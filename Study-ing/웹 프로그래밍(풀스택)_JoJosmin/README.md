@@ -74,3 +74,6 @@
  * HTML은 계층적
  * 브라우저는 HTML 한 라인씩 해석
  * javascript코드가 head로 갈 경우 렌더링 방해 가능--> body 닫히기 직전 혹은 body이후에 
+
+### 9월 11일
+> 1. Web개발의 이해 - FE/BE- 6)
