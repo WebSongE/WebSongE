@@ -63,7 +63,9 @@
    ![webkitflow](https://user-images.githubusercontent.com/86174004/132713030-e433f15f-5d08-4f1e-9acb-35ad77069035.png)
 
   * block-명령
+  
 > 1. Web개발의 이해 - FE/BE- 5)browser에서의 웹 개발
+
 * HTML은 태그사용해서 표현
    * html
    * head: HTML 문서에 관한 추가적 정보
@@ -76,7 +78,9 @@
  * javascript코드가 head로 갈 경우 렌더링 방해 가능--> body 닫히기 직전 혹은 body이후에 작성
 
 ### 9월 11일
+
 > 1. Web개발의 이해 - FE/BE- 6)웹서버
+
 * 웹서버: 웹 서버 소프트웨어가 동작하는 컴퓨터
 * 클라이언트가 요청하는 것 전달
 * 웹브라우저, 웹크롤러 요청 리소스- 정적인 데이터 (컴퓨터 저장 파일), 동적인 결과(프로그램을 통해 만들어진 결과물)
@@ -88,6 +92,7 @@
    * Microsoft IIS
    
 > 1. Web개발의 이해 - FE/BE- 7)WAS
+
 * 클라이언트/서버 구조 : 클라이언트는 서버에게 정보 요청해 응답 결과 사용
 * DBMS: 다수의 사용자가 데이터베이스 내의 데이터에 접근할 수 있도록 해주는 소프트웨어
   * 서버 형태로 제공
@@ -102,14 +107,16 @@
 * WAS도 웹 서버 기능 내장: 정적인 콘텐츠 처리에 있서 성능 차이 X
 * 규모 커질수록 웹 서버와 WAS 분리: 자원 이용의 효율성 및 장애 극복, 배포 및 유지보수 편의성 위해
 
->2.HTML-FE - 1)HTML Tags
+> 2.HTML-FE - 1)HTML Tags
+
 * 주석 : <!--...-->
 * 링크
 * 이미지
 * 목록:<ul>
 * 제목
 
->2.HTML-FE - 2)HTML Layout 태그
+> 2.HTML-FE - 2)HTML Layout 태그
+
  * header: 상단 영역
  * section
  * nav
@@ -118,11 +125,12 @@
  *div: 본문에서 많이 사용
 ![5086 HTML5PageLayout_2](https://user-images.githubusercontent.com/86174004/132933875-700e47d9-1db6-47cc-8ca6-8245779a5280.jpg)
 
- >2.HTML-FE - 3)HTML 구조설계
+> 2.HTML-FE - 3)HTML 구조설계
+
  * 상단/본문/ 네비게이션(큰 부분 분리)-각 영역 안에 내용의 구조
  * 어떤 태그를 쓰느냐-정답x
- 
->2.HTML-FE - 4)class와 id속성
+
+> 2.HTML-FE - 4)class와 id속성
  *ID
    *고유한 속성으로 한HTML당 하나 (하나 이상 써도 오류x 신경써야함)
    * 특별한 제어 가능, 검색 용이
