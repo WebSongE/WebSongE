@@ -4,6 +4,8 @@
 <details>
 <summary> DB 연결 웹 앱(2.2~2.12)</summary>
 <div markdown="1">
-<!--추후 수정-->
+	<ul>
+		<li> [09.10.21] 2.5</li>
+	</ul>
 </div>
 </details>
