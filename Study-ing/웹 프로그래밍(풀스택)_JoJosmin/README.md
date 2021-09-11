@@ -109,7 +109,7 @@
 * 목록:<ul>
 * 제목
 
- >2.HTML-FE - 2)HTML Layout 태그
+>2.HTML-FE - 2)HTML Layout 태그
  * header: 상단 영역
  * section
  * nav
@@ -122,7 +122,7 @@
  * 상단/본문/ 네비게이션(큰 부분 분리)-각 영역 안에 내용의 구조
  * 어떤 태그를 쓰느냐-정답x
  
- >2.HTML-FE - 4)class와 id속성
+>2.HTML-FE - 4)class와 id속성
  *ID
    *고유한 속성으로 한HTML당 하나 (하나 이상 써도 오류x 신경써야함)
    * 특별한 제어 가능, 검색 용이
