@@ -110,8 +110,23 @@
 * 제목
 
  >2.HTML-FE - 2)HTML Layout 태그
- * header
+ * header: 상단 영역
  * section
  * nav
- * footer
- * aside
+ * footer :하단 영역
+ * aside :side 쪽에서 추가적인 것들 표현가능
+ *div: 본문에서 많이 사용
+![5086 HTML5PageLayout_2](https://user-images.githubusercontent.com/86174004/132933875-700e47d9-1db6-47cc-8ca6-8245779a5280.jpg)
+
+ >2.HTML-FE - 3)HTML 구조설계
+ * 상단/본문/ 네비게이션(큰 부분 분리)-각 영역 안에 내용의 구조
+ * 어떤 태그를 쓰느냐-정답x
+ 
+ >2.HTML-FE - 4)class와 id속성
+ *ID
+   *고유한 속성으로 한HTML당 하나 (하나 이상 써도 오류x 신경써야함)
+   * 특별한 제어 가능, 검색 용이
+ *class
+   * 하나의 HTML문서 안 중복 사용 가능
+   * 하나의 태그에 여러 개 class 이름을 공백 기준 나열 가능
+   * 전체적 스타일 일관성 위해서는 사용이 필수적
