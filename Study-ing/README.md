@@ -25,6 +25,10 @@
 ### JoJosmin
 #### 9월 둘째주
 * 1. Web개발의 이해 - FE/BE ~ 3. CSS - FE
+  * 1.Web개발의 이해 - FE/BE ~ 2. HTML - FE 수강완료
+
+#### 9월 셋째주
+* 3. CSS - FE ~ 5. Servlet - BE
 
 ### hellothisismee
 #### 9월 둘째주
