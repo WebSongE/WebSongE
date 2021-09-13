@@ -142,3 +142,12 @@
    * 전체적 스타일 일관성 위해서는 사용이 필수적
 
 ## september-3
+
+### 9월 13일
+>  3.CSS - FE-1)CSS 선언방법
+* css: selector, property, value로 구성
+* style을 HTML에 적용하는 방법 (inline이 우선 순위)
+  * inline :html태그 안에다가 작성(구조 스타일 섞여 유지보수 어려움)
+  * internal:head안에 작성가능(별도의 css파일 필요 없음)
+  * external: 외부파일(.css)로 지정
+  
