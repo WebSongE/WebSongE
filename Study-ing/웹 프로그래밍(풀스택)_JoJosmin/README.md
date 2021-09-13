@@ -150,4 +150,13 @@
   * inline :html태그 안에다가 작성(구조 스타일 섞여 유지보수 어려움)
   * internal:head안에 작성가능(별도의 css파일 필요 없음)
   * external: 외부파일(.css)로 지정
-  
+ 
+ > 3.CSS - FE-2)상속과 우선순위 결정
+ * 상위 적용 스타일 하위에도 적용: box-model 제외(width, height, margin, padding, border)
+ * CSS파일에 두고 style태그로 표현시: inline > internal > external 순 우선순위
+ * inline > internal = external
+ * id > class > element 순 우선순위: 캐스캐이딩
+ * 같은 선택자: 나중에 선언한 것이 반영
+ * 더 구체적으로 표현된 것을 우선 적용
+ * 
+ 
