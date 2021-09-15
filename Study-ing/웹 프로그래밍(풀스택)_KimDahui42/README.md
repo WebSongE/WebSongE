@@ -1,5 +1,7 @@
 # 웹 프로그래밍(풀스택)
 > 수강 중
+* 부스트코스 수강 이외에 추가로 do it! 클론 코딩 트위터 도서를 실습하고있습니다.<br>
+*<a href="https://github.com/KimDahui42/nwitter">해당 repository로 이동</a>*
 ## 2021.09
 <details>
 <summary> DB 연결 웹 앱(2.2~2.12)</summary>
