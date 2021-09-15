@@ -151,12 +151,30 @@
   * internal:head안에 작성가능(별도의 css파일 필요 없음)
   * external: 외부파일(.css)로 지정
  
- > 3.CSS - FE-2)상속과 우선순위 결정
- * 상위 적용 스타일 하위에도 적용: box-model 제외(width, height, margin, padding, border)
- * CSS파일에 두고 style태그로 표현시: inline > internal > external 순 우선순위
- * inline > internal = external
- * id > class > element 순 우선순위: 캐스캐이딩
- * 같은 선택자: 나중에 선언한 것이 반영
- * 더 구체적으로 표현된 것을 우선 적용
- * 
+> 3.CSS - FE-2)상속과 우선순위 결정
+* 상위 적용 스타일 하위에도 적용: box-model 제외(width, height, margin, padding, border)
+* CSS파일에 두고 style태그로 표현시: inline > internal > external 순 우선순위
+* inline > internal = external
+* id > class > element 순 우선순위: 캐스캐이딩
+* 같은 선택자: 나중에 선언한 것이 반영
+* 더 구체적으로 표현된 것을 우선 적용
  
+### 9월 15일
+>  3.CSS - FE-3)CSS Selector
+
+* element에 style지정을 위한 3가지 선택자
+  * tag로 지정 :span-모든 span태그에 적용
+  * id로 지정: id 가진 코드에 적용
+  * class로 지정
+  * id, class 요소와 함께 사용 가능
+  * 그룹 선택 가능: , 이용
+  * 하위 요소 선택: 공백 이용
+  * 자식 선택: >이용
+  * n번째 자식 요소를 선택 :nth child
+
+>  3.CSS - FE-4)CSS 기본 Style 변경하기
+  * font 색상 변경: color
+  * font 사이즈 변경:font-size
+  * 배경색:background-color
+  * 글씨체 글꼴:font-family- Gulim, monospace, sans-serif
+  * 웹폰트(다운로드)/unicode 사용해서 아이콘 표현가능
