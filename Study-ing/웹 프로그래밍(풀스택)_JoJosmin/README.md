@@ -184,15 +184,18 @@
 * layout 작업 ( Rendering과정 ): element를 화면에 배치하는 것
   * 위에서 아래로 배치되는 것이 기본
   * display: block
-  * display: inline
+  * display: inline(좌우로 흘러감)(높이, 넓이 반영x) ( span, a, strong-모두 inline)--block 설정하면 위에서 아래로 흘러감
   * position- 어떤 위치에 엘리먼트를 배치할지 수월
    * static: 순서대로 배치
-   * absolute: 기준점에 따라 특별한 위치(top/left/right/bottom)
+   * absolute: 기준점에 따라 특별한 위치(top/left/right/bottom)-top,left값 꼭 주기!
+   * 기준점: 상위 엘리먼트로 단계적 찾아가며 static이 아닌position이 기준점
    * fixed는 viewport(좌측, 맨 위 기준 동작)
  * 엘리먼트가 배치되는 방식
    * margin:간격
    * float: 원래 flow에서 벗어날 수 있음
    * box-model: box의 크기와 간격에 관한 속성 - margin, padding, border, outline으로 생성, box-shadow: border 밖 테두리 그릴 수 있음
+   * box-sizing: content-box(padding에 따라 크기 달라짐)
+   * box-sizing: border-box(크기 변화x)
  * 엘리먼트의 크기: 기본적으로 부모의 크기(100%=부모의 크기 다 갖는 것)
  * layout 구현방법: float 사용해 2단,3단 컬럼 배치, 최근 css-grid, flex도 사용
    * 특별한 위치 배치: position absolute, 기준점 relative 설정
