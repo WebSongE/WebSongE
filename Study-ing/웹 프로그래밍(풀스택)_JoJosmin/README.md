@@ -160,7 +160,7 @@
 * 더 구체적으로 표현된 것을 우선 적용
  
 ### 9월 15일
->  3.CSS - FE-3)CSS Selector
+> 3.CSS - FE-3)CSS Selector
 
 * element에 style지정을 위한 3가지 선택자
   * tag로 지정 :span-모든 span태그에 적용
@@ -172,9 +172,30 @@
   * 자식 선택: >이용
   * n번째 자식 요소를 선택 :nth child
 
->  3.CSS - FE-4)CSS 기본 Style 변경하기
+> 3.CSS - FE-4)CSS 기본 Style 변경하기
   * font 색상 변경: color
   * font 사이즈 변경:font-size
   * 배경색:background-color
   * 글씨체 글꼴:font-family- Gulim, monospace, sans-serif
   * 웹폰트(다운로드)/unicode 사용해서 아이콘 표현가능
+  
+### 9월 18일
+> 3.CSS - FE-5)Element가 배치되는 방법(CSS layout) -1
+* layout 작업 ( Rendering과정 ): element를 화면에 배치하는 것
+  * 위에서 아래로 배치되는 것이 기본
+  * display: block
+  * display: inline
+  * position- 어떤 위치에 엘리먼트를 배치할지 수월
+   * static: 순서대로 배치
+   * absolute: 기준점에 따라 특별한 위치(top/left/right/bottom)
+   * fixed는 viewport(좌측, 맨 위 기준 동작)
+ * 엘리먼트가 배치되는 방식
+   * margin:간격
+   * float: 원래 flow에서 벗어날 수 있음
+   * box-model: box의 크기와 간격에 관한 속성 - margin, padding, border, outline으로 생성, box-shadow: border 밖 테두리 그릴 수 있음
+ * 엘리먼트의 크기: 기본적으로 부모의 크기(100%=부모의 크기 다 갖는 것)
+ * layout 구현방법: float 사용해 2단,3단 컬럼 배치, 최근 css-grid, flex도 사용
+   * 특별한 위치 배치: position absolute, 기준점 relative 설정
+   * 네비게이션: block 엘리먼트 -> inline-block으로 변경해 가로 배치
+   * 엘리먼트 안 텍스트 간격과 다른 엘리먼트 간격-padding과 margin 활용
+  
