@@ -180,7 +180,7 @@
   * 웹폰트(다운로드)/unicode 사용해서 아이콘 표현가능
   
 ### 9월 18일
-> 3.CSS - FE-5)Element가 배치되는 방법(CSS layout) -1
+> 3.CSS - FE-5)Element가 배치되는 방법(CSS layout)
 * layout 작업 ( Rendering과정 ): element를 화면에 배치하는 것
   * 위에서 아래로 배치되는 것이 기본
   * display: block
@@ -202,3 +202,6 @@
    * 네비게이션: block 엘리먼트 -> inline-block으로 변경해 가로 배치
    * 엘리먼트 안 텍스트 간격과 다른 엘리먼트 간격-padding과 margin 활용
   
+### 9월 19일 
+
+> 3.CSS - FE- 6) float 기반 샘플 화면 레이아웃 구성
