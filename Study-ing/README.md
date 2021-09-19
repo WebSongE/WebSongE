@@ -31,9 +31,10 @@
 * 3. CSS - FE ~ 5. Servlet - BE
   * 3. CSS - FE ~ 4. 개발환경 설정 수강완료
 
-### 9월 넷째주
+#### 9월 넷째주
 * 5. Servlet - BE ~ 2-2 Web UI 개발 -FE
 * 프로젝트 A
+
 ### hellothisismee
 #### 9월 둘째주
 * 1. Web개발의 이해 - FE/BE ~ 4. 개발환경 설정 - BE
