@@ -226,4 +226,6 @@
 * JSP와 서블릿 조화롭게 사용해야 최상의 결과 얻을 수 있음
 
 >5. Survlet의 이해 -2) Survlet 작성방법
-* 
+
+>5. Survlet의 이해 -3) Survlet 라이프 싸이클
+* Survlet 생명주기 : HttpServlet의 3가지 메소드를 오버라이딩: init(), service(request, response),destroy()
