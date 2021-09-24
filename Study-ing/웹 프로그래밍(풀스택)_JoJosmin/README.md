@@ -231,3 +231,5 @@
 * Survlet 생명주기 : HttpServlet의 3가지 메소드를 오버라이딩: init(), service(request, response),destroy()
 * 새로고침 시에 service만 호출-service는 실제 요청된 개체가 메모리에 있는지 확인 후 있다면 
 * 코드 수정시 destroy 호출- 새로고침시에 수정된 메모리 처음부터 호출
+* WAS는 서블릿 요청 받으면 해당 서블릿이 메모리에 있는지 확인, 서블릿 클래스 메모리에 올리면-init(), 그 후 service()호출, 메모리 갱신이나 was 종료시에 destroy()
+* service(request, response)메소드: 클라이언트 GET-doGet메소드 호출, 클라이언트 Post-doPost
