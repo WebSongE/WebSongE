@@ -229,3 +229,4 @@
 
 >5. Survlet의 이해 -3) Survlet 라이프 싸이클
 * Survlet 생명주기 : HttpServlet의 3가지 메소드를 오버라이딩: init(), service(request, response),destroy()
+* 새로고침 시에 service만 호출-service는 실제 요청된 개체가 메모리에 있는지 확인 후 있다면 
