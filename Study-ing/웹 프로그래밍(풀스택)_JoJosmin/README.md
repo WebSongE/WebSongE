@@ -233,3 +233,10 @@
 * 코드 수정시 destroy 호출- 새로고침시에 수정된 메모리 처음부터 호출
 * WAS는 서블릿 요청 받으면 해당 서블릿이 메모리에 있는지 확인, 서블릿 클래스 메모리에 올리면-init(), 그 후 service()호출, 메모리 갱신이나 was 종료시에 destroy()
 * service(request, response)메소드: 클라이언트 GET-doGet메소드 호출, 클라이언트 Post-doPost
+
+>5. Survlet의 이해 -4) Request, Response 객체 이해하기
+* WAS는 웹 브라우저로부터 Servlet요청을 받으면 요청할 때 가지고 있는 정보를 HttpServletRequest객체를 생성하여 저장,
+웹 브라우저에게 응답을 보낼 때 사용하기 위하여 HttpServletResponse객체를 생성
+생성된 HttpServletRequest, HttpServletResponse 객체를 서블릿에게 전달
+* HttpServletRequest: request정보를 서블릿 전달 목적, 헤더정보, 파라미터, 쿠키, url,uri,body의 stream 읽어들이는 메소드 가짐
+* HttpServletResponse: 서블릿에서 이를 이용해 content type, 응답코드, 응답 메시지 
