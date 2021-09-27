@@ -10,6 +10,8 @@
 * 5. Servlet - BE 
 * 프로젝트 A-1
 
+[9월_마지막주(9/27 ~ 10/3)](#september-5)
+* 프로젝트 A
 -------------------------------------------------------------------
 ## 강의수강진도기록
 ## september-2
@@ -240,3 +242,5 @@
 생성된 HttpServletRequest, HttpServletResponse 객체를 서블릿에게 전달
 * HttpServletRequest: request정보를 서블릿 전달 목적, 헤더정보, 파라미터, 쿠키, url,uri,body의 stream 읽어들이는 메소드 가짐
 * HttpServletResponse: 서블릿에서 이를 이용해 content type, 응답코드, 응답 메시지 
+
+## september-5
