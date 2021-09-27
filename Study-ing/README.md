@@ -44,6 +44,10 @@
 #### 9월 넷째주
 * 5. Servlet - BE 
 * 프로젝트 A
+  * servlet 수강완료
+
+### 9월 마지막 주
+* 프로젝트 
 
 ### hellothisismee
 #### 9월 둘째주
