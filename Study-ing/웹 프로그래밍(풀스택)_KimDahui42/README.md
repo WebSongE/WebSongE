@@ -15,7 +15,7 @@
 <summary> DB 연결 웹 앱(2.7~2.12)</summary>
 <div markdown="1">
 	<ul>
-		<li> </li>
+		<li>과제 B 시작 -> 자바스크립트 학습으로 변경했습니다(문법이 부족한 것 같아요) </li>
 	</ul>
 </div>
 </details>
