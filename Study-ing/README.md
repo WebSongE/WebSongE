@@ -7,7 +7,6 @@
 * [MONU](#monu)
 * [ChaeRin](#ChaeRin)
 * [JoJosmin](#JoJosmin)
-* [hellothisismee](#hellothisismee)
 
 ### MONU
 #### 9월 둘째주
@@ -49,9 +48,6 @@
 ### 9월 마지막 주
 * 프로젝트 
 
-### hellothisismee
-#### 9월 둘째주
-* 1. Web개발의 이해 - FE/BE ~ 4. 개발환경 설정 - BE
 
 
 ***
