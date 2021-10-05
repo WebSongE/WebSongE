@@ -252,13 +252,20 @@
 
 ### 10월 5일
 > 2-1 Javascript-FE -1)자바스크립트 변수-연산자-타입
- * 변수 선언
-   * var
-   * let
-   * const: 재할당 불가
+* 변수 선언
+  * var
+  * let
+  * const: 재할당 불가
 * 연산자
   * 삼항연산자
   * 비교연산자: === (타입까지 비교)
 * type : undefined, null, boolean, number, string, object, function, array, Date, RegExp
   * 선언할 때가 아닌 실행타임에 결정
   * toString.call함수 사용/type of 사용/배열의 경우 isArray
+
+> 2-1 Javascript-FE -2)자바스크립트 비교-반복-문자열
+* 비교문:if, else if, else-- 한 줄 코딩도 가능, 삼항연산자로 대체가능
+* 분기 -switch: case, default
+* 반복:for, while -성능개선시 reverse 해서도 많이 사용
+  * 배열의 경우 forEach메서드, for-of탐색도 있음. for-in-객체 탐색
+* 자바스크립트의 문자, 문자열-같은타입(문자열)
