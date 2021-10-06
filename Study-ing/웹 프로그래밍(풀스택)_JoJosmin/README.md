@@ -299,3 +299,18 @@
 * Event
   * 등록: addEventListener - 함수가 두번째 인자
   * 객체: event.target-element 속성 
+  
+>2-2 Web UI 개발-FE-4) Ajax통신의 이해
+* Ajax: 동적으로필요한 시점에 컨텐츠를 받아와서 표현함
+* JSON:표준적 데이터 포맷 결정 위해서 사용 
+* Ajax 실행코드
+  * XMLHttpRequest객체 생성, open메서드로 요청 준비, send메서드로 서버로 보냄
+  * 요청처리 완료되면load이벤트 발생,콜백함수 실행
+ 
+ >2-2 Web UI 개발-FE-5) javascript debugging
+ * Pause, Continue
+ * Step over next function call
+ * Step into next function call 
+ * Step out of current function
+ * Active/Deactive breakpoint
+ * Pause on exception
