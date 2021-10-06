@@ -283,3 +283,19 @@
 > 2-1 Javascript-FE -4) 자바스크립트 함수 호출 스택
 * call stack: 함수 잠시 멈춰놓은 상태에서 다른 함수 불러옴
   * 연속적 호출 시 오류 발생 
+### 10월 6일
+>2-2 Web UI 개발-FE-1)windows 객체(setTimeout)
+* setTimeout-인자로 함수 받음, 함수 반환가능
+  * 비동기 실행: 동기적 실행 끝난 후 실행
+  
+>2-2 Web UI 개발-FE-2) DOM과 querySelector
+* 브라우저에서 HTML코드를 DOM 객체형태의 모델로 저장-DOM Tree
+* 브라우저에서 DOM Tree찾고 조작하는 걸 도와주는 메서드 제공
+  * getElementByld()
+  * Element.querySelector()
+  * css selector
+
+>2-2 Web UI 개발-FE-3) Browser Event, Event object, Event handler
+* Event
+  * 등록: addEventListener - 함수가 두번째 인자
+  * 객체: event.target-element 속성 
