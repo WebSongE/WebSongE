@@ -34,3 +34,19 @@
 	4. Project 메뉴의 Clean선택
 	5. 프로젝트 익스플로러에서 Servers 삭제
 	6. Run on Server로 실행(서버 포트 추가-8005)
+### JDBCExam1 실행 오류
+* mysql 버젼이 달라서 발생
+	* mysql 8.0.26 dependency 코드
+	```xml
+	<dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>8.0.26</version>
+	</dependency>
+	```
+	* RoleDao.java
+	```java
+	private static String dburl="jdbc:mysql://localhost:3306/connectdb?serverTimezone=Asia/Seoul&useSSL=false";
+	Class.forName("com.mysql.cj.jdbc.Driver");
+	
+	```
