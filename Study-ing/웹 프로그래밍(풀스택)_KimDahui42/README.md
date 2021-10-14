@@ -50,3 +50,14 @@
 	Class.forName("com.mysql.cj.jdbc.Driver");
 	
 	```
+### webAPI 실습 500 - java.lang.NoClassDefFoundError: com/fasterxml/jackson/databind/ObjectMapper
+`.classpath` 파일 수정
+````
+<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+	<attributes>
+		<attribute name="maven.pomderived" value="true"/>
+		<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+	</attributes>
+</classpathentry>
+
+```
