@@ -15,6 +15,9 @@
 
 [10월_첫째주(10/4 ~ 10/10)](#october-1)
 * 2-1 ~2-2
+
+[10월_넷째주(10/25 ~ 10/31)](#october-4)
+* 2-3 ~2-7
 -------------------------------------------------------------------
 ## 강의수강진도기록
 ## september-2
@@ -314,3 +317,8 @@
  * Step out of current function
  * Active/Deactive breakpoint
  * Pause on exception
+
+## october-4
+### 10월 27일
+
+>2-3 JSP-BE-3) JSP란?
