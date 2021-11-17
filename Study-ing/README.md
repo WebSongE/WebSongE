@@ -43,7 +43,8 @@
 #### 11월 첫째주~셋째주
 * 프로젝트 B 마무리->리액트 실습
 * 리액트 학습(해커톤)
-* <a href="https://github.com/KimDahui42/detectiveclub">해당 리포지토리</a>
+* <a href="https://github.com/KimDahui42/detectiveclub">실습 리포지토리(detectivclub)</a>
+* <a href="https://github.com/KimDahui42/movie_nov_2021">학습 리포지토리(movie)</a>
 
   
 ### ChaeRin
