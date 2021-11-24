@@ -46,6 +46,10 @@
 * <a href="https://github.com/KimDahui42/detectiveclub">실습 리포지토리(detectivclub)</a>
 * <a href="https://github.com/KimDahui42/movie_nov_2021">학습 리포지토리(movie)</a>
 
+#### 11월 넷째주
+* 프로젝트 B Todo list 제출
+* 3. 웹 앱 개발:예약서비스 1/4 수강
+    * 0.hello! - 4.Web Animation(FE)
   
 ### ChaeRin
 #### 9월 둘째주
