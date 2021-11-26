@@ -8,6 +8,7 @@
 * [ChaeRin](#ChaeRin)
 * [JoJosmin](#JoJosmin)
 
+## 개인별 공부 기록
 ### MONU
 #### 9월 둘째주
 * 2.2~2.12 수강
