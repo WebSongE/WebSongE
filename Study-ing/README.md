@@ -52,6 +52,9 @@
 * 3. 웹 앱 개발:예약서비스 1/4 수강
     * ~~0.hello! - 1. JavaScript-FE~~
     * 4.Web Animation(FE
+#### 12월 첫째주~셋째주
+* 기말 공부
+* 기말 과제
   
 ### ChaeRin
 #### 9월 둘째주
